@@ -2,3 +2,9 @@ server.port: 8081
 
 spring:
   application.name: temperature-processing
+  #RABBITMQ
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ${RABBITMQ_DEFAUL_USER}
+    password: ${RABBITMQ_DEFAUL_PASS}
